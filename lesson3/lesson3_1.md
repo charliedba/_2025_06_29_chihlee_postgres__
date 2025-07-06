@@ -1,7 +1,5 @@
 ## 建立資料表的語法
 
-## 建立資料表的語法
-
 ```sql
 CREATE TABLE [IF NOT EXISTS] table_name (
    column1 datatype(length) column_constraint,
@@ -39,4 +37,39 @@ VALUES ('呂育君','歷史');
 ```sql
 INSERT INTO student (name, major)
 VALUES ('小柱','生物'),('信忠','英語');
+```
+
+## 取得資料
+
+```sql
+SELECT
+  select_list
+FROM
+  table_name
+WHERE
+  condition
+ORDER BY
+  sort_expression;
+
+```
+
+```sql
+SELECT student_id, name, major
+FROM  student;
+
+SELECT  name, major
+FROM  student;
+
+SELECT  *
+FROM  student
+WHERE name='信忠';
+
+SELECT  *
+FROM  student
+ORDER BY student_id DESC;
+
+SELECT  *
+FROM  student
+ORDER BY student_id DESC
+LIMIT 3;
 ```
