@@ -9,5 +9,6 @@ def main():
     else:
         st.error("無法取得車站資料")
 
+
 if __name__ == "__main__":
     main()
