@@ -13,7 +13,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-postgres",
-        "postgresql://chillee_user:Sc4AUWlKdGHQpiDJOC411GgIVjTJLAqT@dpg-d2c03dfdiees73f5o170-a.singapore-postgres.render.com/chelee?sslmode=require"
+        "postgresql://chelee_user:Sc4AUWlKdGHQpiDJOC411GgIVjTJLAqT@dpg-d2c03dfdiees73f5o170-a.singapore-postgres.render.com/chelee?sslmode=require"
       ]
     }
   },
